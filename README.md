@@ -71,3 +71,31 @@ For check your install :
 ```sh
 mvn -version
 ```
+
+## INSTALL Change_Password_Super_Administrator
+For this script be careful. It's ok with version of 3.3.0.
+
+But with the version 3.3.1, in my script 08_Change_Password_Super_Administrator_v3.3.sh change the variable
+find :
+```sh
+${password}
+```
+Replace
+```sh
+{NEW_ADMIN_PASSWORD}
+```
+### Procedure for changing a password
+First :
+Connect to wso2IOT and change your password
+After shutdown the server
+Second:
+Change the variable in 08_Change_Password_Super_Administrator_v3.3.sh if you use 3.3.1
+And then, Execute the Procedure for changing a password 08_Change_Password_Super_Administrator_v3.3.sh
+
+
+# INFORMATION
+All of these scripts work for me.
+They are provided to you only for a test basis.
+It modifies the Wso2 broker - Wso2 Carbon and Wso2 IOT
+
+I cannot be responsible for the use of these scripts and what you do with them!

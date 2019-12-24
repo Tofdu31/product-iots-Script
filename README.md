@@ -12,7 +12,12 @@ And after check with: java -version
 On your console, type cd $HOME
 After type : nano .bashrc
 
-Add this (Be careful :Change VERSION NUMBER WITH YOUR NUMBER VERSION OF JAVA) 
+Add this 
+Be careful : Change
+```sh
+VERSION NUMBER
+```
+WITH YOUR NUMBER VERSION OF JAVA
 NUMBER VERSION : java -version
 
 ```sh

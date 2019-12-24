@@ -62,3 +62,7 @@ For update , execute the command
 ```sh
 source ~/.bashrc
 ```
+For check your install :
+```sh
+mvn -version
+```

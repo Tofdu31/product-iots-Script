@@ -29,8 +29,10 @@ export PATH=$PATH:$KEYTOOL/bin
 VERY IMPORTANT, for installation MAVEN, don't use the command : apt-get install maven  It's forbitten if you want to use WSO2IOT
 
 Download maven here : https://maven.apache.org/download.cgi?Preferred=http%3A%2F%2Fapache.crihan.fr%2Fdist%2F
-The command for MAVEN 3.6.3: wget https://www-us.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
-
+The command for MAVEN 3.6.3: 
+```sh
+wget https://www-us.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+```
 Unzip the archive in /opt
 
 On ROOT :

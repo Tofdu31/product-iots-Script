@@ -16,12 +16,38 @@ Add this (Be careful :Change VERSION NUMBER WITH YOUR NUMBER VERSION OF JAVA)
 NUMBER VERSION : java -version
 
 ```sh
-# Variable Environnement pour  JAVA 1.8.0.131
-export JAVA_HOME=/opt/java/jdk1.8.0_131
-export JRE_HOME=/opt/java/jdk1.8.0_131/jre
-export PATH=$PATH:/opt/java/jdk1.8.0_131/bin:/opt/java/jdk1.8.0_131/jre/bin
+# Variable Environnement pour  JAVA NUMBER VERSION
+export JAVA_HOME=/opt/java/jdkNUMBER VERSION
+export JRE_HOME=/opt/java/jdkNUMBER VERSION/jre
+export PATH=$PATH:/opt/java/jdkNUMBER VERSION/bin:/opt/java/jdkNUMBER VERSION/jre/bin
 
 # Variable Environnement pour Keytool JAVA 8
-export KEYTOOL=/opt/java/jdk1.8.0_131/jre
+export KEYTOOL=/opt/java/jdkNUMBER VERSION/jre
 export PATH=$PATH:$KEYTOOL/bin
+```
+## INSTALL MAVEN
+VERY IMPORTANT, for installation MAVEN, don't use the command : apt-get install maven  It's forbitten if you want to use WSO2IOT
+
+Download maven here : https://maven.apache.org/download.cgi?Preferred=http%3A%2F%2Fapache.crihan.fr%2Fdist%2F
+The command for MAVEN 3.6.3: wget https://www-us.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+
+Unzip the archive in /opt
+
+On ROOT :
+```sh
+cd $HOME
+```
+And
+```sh
+cd nano .bashrc
+```
+ADD :
+```sh
+# Variable Environnement MAVEN
+export MAVEN_HOME=/opt/apache-maven-3.6.3
+export M2_HOME=/opt/apache-maven-3.6.3
+export PATH=${M2_HOME}/bin:${PATH}
+export PATH=/opt/apache-maven-3.6.3/bin:$PATH
+MAVEN_OPTS=" -Xms512m -Xmx1024m -XX:MaxPermSize=1024m"
+export MAVEN_OPTS
 ```

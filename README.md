@@ -25,6 +25,11 @@ export PATH=$PATH:/opt/java/jdkNUMBER VERSION/bin:/opt/java/jdkNUMBER VERSION/jr
 export KEYTOOL=/opt/java/jdkNUMBER VERSION/jre
 export PATH=$PATH:$KEYTOOL/bin
 ```
+For update , execute the command
+```sh
+source ~/.bashrc
+```
+
 ## INSTALL MAVEN
 VERY IMPORTANT, for installation MAVEN, don't use the command : apt-get install maven  It's forbitten if you want to use WSO2IOT
 
@@ -52,4 +57,8 @@ export PATH=${M2_HOME}/bin:${PATH}
 export PATH=/opt/apache-maven-3.6.3/bin:$PATH
 MAVEN_OPTS=" -Xms512m -Xmx1024m -XX:MaxPermSize=1024m"
 export MAVEN_OPTS
+```
+For update , execute the command
+```sh
+source ~/.bashrc
 ```

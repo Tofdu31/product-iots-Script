@@ -76,6 +76,7 @@ mvn -version
 For this script be careful. It's ok with version of 3.3.0.
 
 But with the version 3.3.1, in my script 08_Change_Password_Super_Administrator_v3.3.sh change the variable
+
 find :
 ```sh
 ${password}

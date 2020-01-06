@@ -88,9 +88,11 @@ Replace
 ### Procedure for changing a password
 First :
 Connect to wso2IOT and change your password
+
 After shutdown the server
 Second:
 Change the variable in 08_Change_Password_Super_Administrator_v3.3.sh if you use 3.3.1
+
 And then, Execute the Procedure for changing a password 08_Change_Password_Super_Administrator_v3.3.sh
 
 

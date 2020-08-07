@@ -1,5 +1,5 @@
-# product-iots-Script
-Script for customise change localhost with your IP + Certificate + Password admin
+# product WSO2 IOT
+Script for customise change localhost with your IP + Certificate + Password admin for WSO2 IOT
 
 ## XMLSTARLET
 This script run with xmlstarlet. Install on your server XMLSTARLET : apt-get install xmlstarlet
